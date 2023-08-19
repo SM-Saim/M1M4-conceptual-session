@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.cat:hover {
+  color: rgba(255, 14, 62, 0.897);
+  cursor: pointer;
+}
+.contain {
+  border: 2px solid gray;
+  margin: 10px;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  border: 1px solid gray;
+  margin: 5px;
+}
+.box1 {
+  background-color: rgb(212, 0, 255);
+}
+.box2 {
+  background-color: blue;
+}
+.box3 {
+  background-color: rgb(0, 255, 200);
+}

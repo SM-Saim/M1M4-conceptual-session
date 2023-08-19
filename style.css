@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+.logo {
+  width: 350px;
+  align-items: center;
+  margin-left: 50px;
+  padding: 10px;
+  color: #00abf0;
+  font-size: 25px;
+}
+.elements {
+  list-style: none;
+  color: #ededed;
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  /* background: linear-gradient(to top, #081b29, #112e42); */
+}
+.list {
+  margin-right: 40px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+}
+.list:hover {
+  /* border: 1px solid #00abf0; */
+  color: #00abf0;
+}
+.photo2 {
+  width: 600px;
+}
+.banner {
+  display: flex;
+  justify-content: space-around;
+  min-height: 100vh;
+  align-items: center;
+  background-image: url(./images/Blue\ White\ Modern\ Technology\ Presentation.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background: linear-gradient(to top, #081b29, #112e42); */
+  color: #ededed;
+  position: relative;
+}
+.btn {
+  background-color: #00abf0;
+  color: black;
+  font-weight: 700;
+  border-radius: 3px;
+  padding: 10px 25px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 17px;
+  border: 2px solid transparent;
+}
+.btn:hover {
+  color: #00abf0;
+  background-color: black;
+  border: 2px solid #00abf0;
+}
+.left-text {
+  margin-left: 7px;
+}
+.h1 {
+  font-size: 55px;
+  font-weight: bold;
+  color: #ededed;
+}
+.p-tag {
+  font-size: 33px;
+  margin-top: 10px;
+  font-weight: 700;
+  color: #00abf0;
+}
+.second-banner {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  height: 80vh;
+  align-items: center;
+  color: #ededed;
+}
+.h1sec {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #ededed;
+  padding-top: 10px;
+}
+.bg {
+  background-image: url(./images/Blue\ White\ Modern\ Technology.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
